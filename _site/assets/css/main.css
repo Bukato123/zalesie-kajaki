@@ -123,7 +123,7 @@ hr {
   padding-top: 50px; }
   .nav__bar .logo {
     display: block;
-    margin-top: 50px;
+    margin-top: 26px;
     float: left;
     font-weight: bold; }
   .nav__bar a {
@@ -227,10 +227,15 @@ hr {
     background-color: #FBFF4A;
     color: #324666; }
 
+.info:first-of-type {
+  margin-top: 80px; }
+
 .info {
-  margin-top: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
   color: #324666;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  max-width: 800px; }
 
 .routes__box {
   padding: 20px;

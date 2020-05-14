@@ -165,7 +165,7 @@ hr {
 
     .logo {
         display: block;
-        margin-top: 50px;
+        margin-top: 26px;
         float: left;
         font-weight: bold;
     }
@@ -309,10 +309,16 @@ hr {
     }
 }
 
-.info {
+.info:first-of-type {
     margin-top: 80px;
+}
+
+.info {
+    margin: 0 auto;
+    margin-top: 30px;
     color: $heading-text-color;
     font-size: 1.125em;
+    max-width: 800px;
 }
 
 .routes__box {
