@@ -26,14 +26,17 @@
   .container--regular {
     max-width: 90%; }
 
-  .nav__bar .logo {
-    text-align: center;
-    float: none; }
-  .nav__bar a {
-    text-align: center;
-    margin: 0 auto; }
-  .nav__bar ul {
-    display: none; }
+  .nav__bar {
+    margin-bottom: 30px; }
+    .nav__bar .logo {
+      display: block;
+      text-align: center;
+      float: none; }
+    .nav__bar a {
+      text-align: center;
+      margin: 0 auto; }
+    .nav__bar ul {
+      display: none; }
 
   .nav__hamburger {
     display: block; }
